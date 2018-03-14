@@ -1,7 +1,7 @@
 
 // Task 1. Reverse String
 
-function reverseString(str) {
+function reverseString(str) { // пока что такой простой способ
     var result='';
     var len=str.length-1;
     for(var i=len;i>=0;i--){
@@ -20,7 +20,7 @@ console.log(reverseString("Greetings from Earth"));
 
 // Task 2. Factorialize a Number
 
-function factorialize(num) {
+function factorialize(num) { // пока что такой простой способ
     var result=1;
     for(var i=2;i<=num;i++){
         result=result*i;
